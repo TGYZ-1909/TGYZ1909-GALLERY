@@ -1,0 +1,13 @@
+{
+  "input": "./gallery",
+  "output": "./build_output",
+  "title": "塘沽一中2019届高一九班相册",
+  "sort-albums-by": "title",
+  "sort-media-by": "filename",
+  "download-photos": "copy",
+  "cleanup": true,
+  "theme": "cards",
+  "theme-style": "./custom.css",
+  "footer": "Copyright © All Rights Reserved",
+  "usage-stats": false
+}
