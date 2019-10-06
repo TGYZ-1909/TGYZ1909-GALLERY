@@ -8,6 +8,6 @@
   "cleanup": true,
   "theme": "cards",
   "theme-style": "./custom.css",
-  "footer": "Copyright © All Rights Reserved <script data-ad-client="ca-pub-6304667079109599" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> ",
+  "footer": "Copyright © All Rights Reserved",
   "usage-stats": false
 }
