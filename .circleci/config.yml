@@ -10,6 +10,10 @@ jobs:
       - checkout
       - run:
           name: Update npm
+          command: 'sudo apt-get update'
+          command: 'sudo apt-get upgrade'
+          command: 'sudo apt-get install curl'
+          command: 'curl -sL https://deb.nodesource.com/setup_12.x | bash -'
           command: 'sudo npm install -g npm@latest'
       - restore_cache:
           key: dependency-cache-{{ checksum "package-lock.json" }}
