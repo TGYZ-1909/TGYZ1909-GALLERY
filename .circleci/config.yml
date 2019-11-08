@@ -12,9 +12,11 @@ jobs:
       - run:
           name: Update npm
           command: 'sudo npm install -g npm@latest'
-          command: 'sudo add-apt-repository -y ppa:rwky/graphicsmagick'
       - restore_cache:
           key: dependency-cache-{{ checksum "package-lock.json" }}
+      - run:
+          name: Install Dependence
+          command: 'sudo add-apt-repository -y ppa:rwky/graphicsmagick'
       - run:
           name: Install npm wee
           command: npm install
