@@ -3,4 +3,8 @@ jobs: # a collection of steps
   build: # runs not using Workflows must have a `build` job as entry point
     machine: # run the steps with Docker
       image: circleci/classic:201708-01 # ...with this image as the primary container; this is where all `steps` will run
+  steps:
+    - run:
+      command: sudo add-apt-repository -y ppa:rwky/graphicsmagick
+      
 
