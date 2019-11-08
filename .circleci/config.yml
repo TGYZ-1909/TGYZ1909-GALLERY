@@ -22,13 +22,3 @@ jobs: # a collection of steps
       - run:
           name: run thumbups
           command: 'thumbsup --config config.json'
-      - deploy:
-          provider: pages
-          skip-cleanup: true
-          local_dir: build_output
-          committer-from-gh: true
-          keep-history: true
-          fqdn: gallery.tgyz1909.me
-          github-token:  $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-          on:
-            branch: master
