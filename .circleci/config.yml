@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/mern-starter
     # The primary container is an instance of the first image listed. The job's commands run in this container.
-    docker:
+    machine:
       - image: circleci/classic:201708-01
     # The secondary container is an instance of the second listed image which is run in a common network where ports exposed on the primary container are available on localhost.
     steps:
