@@ -13,7 +13,7 @@ jobs:
           command: |
             sudo apt-get install curl
             curl -sL https://deb.nodesource.com/setup_12.x | bash -
-          #command: 'sudo npm install -g npm@latest'
+            sudo apt-get install -y nodejs
       - run:
           name: Install Dependence
           command: |
