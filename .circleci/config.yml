@@ -15,7 +15,6 @@ jobs:
       - run:
           name: Install Dependence
           command: |
-            git clone https://github.com/TGYZ-1909/TGYZ1909-GALLERY.git
             sudo apt-get -y install software-properties-common
             sudo add-apt-repository -y ppa:rwky/graphicsmagick
             sudo add-apt-repository -y ppa:mc3man/trusty-media
