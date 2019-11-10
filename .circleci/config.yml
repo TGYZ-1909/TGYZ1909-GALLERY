@@ -28,5 +28,6 @@ jobs:
       - run:
           name: THUMBUP BUILD
           command: |
+            sudo npm config set unsafe-perm=true
             sudo npm install -g thumbsup
             thumbsup --config config.json
