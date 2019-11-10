@@ -27,4 +27,4 @@ jobs:
             sudo apt-get -y install ffmpeg
             sudo apt-get -y install graphicsmagick
             sudo apt-get -y install gifsicle
-            sudo npm install -g thumbsup
+            #sudo npm install -g thumbsup
