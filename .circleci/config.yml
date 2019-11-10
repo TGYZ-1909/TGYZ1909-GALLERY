@@ -28,5 +28,5 @@ jobs:
       - run:
           name: THUMBUP BUILD
           command: |
-            sudo npm install thumbsup
+            sudo npm install -g thumbsup
             thumbsup --config config.json
