@@ -27,6 +27,6 @@ jobs:
             sudo apt-get -y install graphicsmagick
             sudo apt-get -y install gifsicle
       - run:
-          name: Install Dependence
+          name: NPM INSTALL
           command: |
-            ls
+            sudo npm install thumbsup
