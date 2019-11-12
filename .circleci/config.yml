@@ -6,7 +6,7 @@ jobs:
     # The secondary container is an instance of the second listed image which is run in a common network where ports exposed on the primary container are available on localhost.
     steps:
       - add_ssh_keys:
-          fingerprints: 'd7:4d:db:59:2b:b6:f5:20:44:11:02:eb:2f:c7:28:36'
+          fingerprints: '62:35:25:b8:bb:39:ef:10:db:b7:5e:75:c4:c5:cd:f8'
       - checkout
       - run:
           name: Update npm
