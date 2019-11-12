@@ -39,5 +39,5 @@ jobs:
             sudo npm install -g --silent gh-pages@2.0.1
             git config --global user.email "24516641+TGYZ1909@users.noreply.github.com"
             git config --global user.name "TGYZ1909"
-            gh-pages --dotfiles --message "[skip ci] Updates" --dist ./build_output
+            gh-pages --dotfiles --message "[Circle CI] Updates" --dist ./build_output
 
