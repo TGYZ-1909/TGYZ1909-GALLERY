@@ -1,14 +1,7 @@
-2019-11-12T04:41:52.997Z thumbsup:warn dcraw (https://www.cybercom.net/~dcoffin/dcraw/) is not installed. You will not be able to process RAW photos.
-2019-11-12T04:42:55.059Z thumbsup:error Error processing 图片/篮球第三场/19.jpg -> media/thumbs/图片/篮球第三场/19.jpg
-2019-11-12T04:42:55.059Z thumbsup:error Error: spawn E2BIG
-2019-11-12T04:42:56.358Z thumbsup:error Error processing 图片/篮球第三场/16.jpg -> media/large/图片/篮球第三场/16.jpg
-2019-11-12T04:42:56.358Z thumbsup:error Error: Command failed: gm convert: Output file write error --- out of disk space? (/root/project/build_output/media/large/图片/篮球第三场/16.jpg) [Cannot allocate memory].
-2019-11-12T04:42:56.358Z thumbsup:error 
-2019-11-12T04:45:09.658Z thumbsup:error Error processing 图片/2019-08-12 113911.jpg -> media/thumbs/图片/2019-08-12 113911.jpg
-2019-11-12T04:45:09.658Z thumbsup:error Error: Command failed: 
-2019-11-12T04:46:37.055Z thumbsup:error Error processing 视频/篮球第二场/IMG_0165.MOV -> media/thumbs/视频/篮球第二场/IMG_0165.jpg
-2019-11-12T04:46:37.055Z thumbsup:error Error: spawn ENOMEM
-2019-11-12T04:47:56.241Z thumbsup:error Error processing 视频/篮球12.mp4 -> media/large/视频/篮球12.mp4
-2019-11-12T04:47:56.241Z thumbsup:error Error: ffmpeg exited with code 69
-2019-11-12T04:50:37.215Z thumbsup:warn The following sources files were not processed:
-2019-11-12T04:50:37.215Z thumbsup:warn 图片/篮球第三场/19.jpg,图片/篮球第三场/16.jpg,图片/2019-08-12 113911.jpg,视频/篮球第二场/IMG_0165.MOV,视频/篮球12.mp4
+2019-11-12T14:02:27.028Z thumbsup:warn dcraw (https://www.cybercom.net/~dcoffin/dcraw/) is not installed. You will not be able to process RAW photos.
+2019-11-12T14:04:08.340Z thumbsup:error Error processing 视频/足球4.mp4 -> media/small/视频/足球4.jpg
+2019-11-12T14:04:08.340Z thumbsup:error Error: spawn ENOMEM
+2019-11-12T14:06:24.786Z thumbsup:error Error processing 视频/篮球第二场/IMG_0172.MOV -> media/large/视频/篮球第二场/IMG_0172.jpg
+2019-11-12T14:06:24.786Z thumbsup:error Error: Command failed: 
+2019-11-12T14:09:35.845Z thumbsup:warn The following sources files were not processed:
+2019-11-12T14:09:35.845Z thumbsup:warn 视频/足球4.mp4,视频/篮球第二场/IMG_0172.MOV
