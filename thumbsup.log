@@ -1,9 +1,9 @@
-2019-11-12T04:28:49.516Z thumbsup:warn dcraw (https://www.cybercom.net/~dcoffin/dcraw/) is not installed. You will not be able to process RAW photos.
-2019-11-12T04:30:45.616Z thumbsup:error Error processing 图片/2019-08-12 113911.jpg -> media/thumbs/图片/2019-08-12 113911.jpg
-2019-11-12T04:30:45.616Z thumbsup:error Error: Command failed: 
-2019-11-12T04:32:28.028Z thumbsup:error Error processing 视频/篮球12.mp4 -> media/large/视频/篮球12.mp4
-2019-11-12T04:32:28.028Z thumbsup:error Error: ffmpeg exited with code 69
-2019-11-12T04:35:09.025Z thumbsup:error Error processing 视频/篮球第二场/IMG_0198.MOV -> media/small/视频/篮球第二场/IMG_0198.jpg
-2019-11-12T04:35:09.025Z thumbsup:error Error: spawn ENOMEM
-2019-11-12T04:36:06.996Z thumbsup:warn The following sources files were not processed:
-2019-11-12T04:36:06.996Z thumbsup:warn 图片/2019-08-12 113911.jpg,视频/篮球12.mp4,视频/篮球第二场/IMG_0198.MOV
+2019-11-12T04:34:04.080Z thumbsup:warn dcraw (https://www.cybercom.net/~dcoffin/dcraw/) is not installed. You will not be able to process RAW photos.
+2019-11-12T04:34:59.530Z thumbsup:error Error processing 图片/2019-08-12 113911.jpg -> media/thumbs/图片/2019-08-12 113911.jpg
+2019-11-12T04:34:59.530Z thumbsup:error Error: Command failed: 
+2019-11-12T04:39:15.007Z thumbsup:error Error processing 视频/IMG_0590.mp4 -> media/thumbs/视频/IMG_0590.jpg
+2019-11-12T04:39:15.007Z thumbsup:error Error: spawn ENOMEM
+2019-11-12T04:40:17.108Z thumbsup:error Error processing 视频/篮球12.mp4 -> media/large/视频/篮球12.mp4
+2019-11-12T04:40:17.108Z thumbsup:error Error: ffmpeg exited with code 69
+2019-11-12T04:41:12.487Z thumbsup:warn The following sources files were not processed:
+2019-11-12T04:41:12.487Z thumbsup:warn 图片/2019-08-12 113911.jpg,视频/IMG_0590.mp4,视频/篮球12.mp4
