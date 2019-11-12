@@ -1,1 +1,7 @@
-2019-11-11T08:31:40.194Z thumbsup:warn dcraw (https://www.cybercom.net/~dcoffin/dcraw/) is not installed. You will not be able to process RAW photos.
+2019-11-12T01:52:35.426Z thumbsup:warn dcraw (https://www.cybercom.net/~dcoffin/dcraw/) is not installed. You will not be able to process RAW photos.
+2019-11-12T01:54:45.361Z thumbsup:error Error processing 图片/2019-08-12 113911.jpg -> media/thumbs/图片/2019-08-12 113911.jpg
+2019-11-12T01:54:45.361Z thumbsup:error Error: Command failed: 
+2019-11-12T01:58:43.041Z thumbsup:error Error processing 视频/篮球12.mp4 -> media/large/视频/篮球12.mp4
+2019-11-12T01:58:43.041Z thumbsup:error Error: ffmpeg exited with code 69
+2019-11-12T01:59:23.598Z thumbsup:warn The following sources files were not processed:
+2019-11-12T01:59:23.598Z thumbsup:warn 图片/2019-08-12 113911.jpg,视频/篮球12.mp4
