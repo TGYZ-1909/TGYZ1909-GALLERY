@@ -17,11 +17,12 @@ install:
     - sudo apt-get -y install ffmpeg
     - sudo apt-get -y install graphicsmagick
     - sudo apt-get -y install gifsicle
+    - npm install -g thumbsup
 build_script:
-    - hexo generate
+    - thumbsup --config config.json
     
 artifacts:
-    - path: public
+    - path: build_output
     
 on_success:
     - git config --global credential.helper store
