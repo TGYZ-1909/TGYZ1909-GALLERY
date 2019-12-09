@@ -1,5 +1,5 @@
 clone_depth: 5
-
+image: Ubuntu
 environment:
     access_token:
         secure: Mf6FoZ1Z7hOB0Kg+ILKrUSmtF1v0j0xobM7duH+9BhOCo2psn/aPqdsm+zW1mmyG
