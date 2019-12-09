@@ -9,7 +9,7 @@ install:
     - pwd
     - ls
     - docker pull thumbsupgallery/thumbsup
-    - docker run -t -v ./gallery:/input:ro -v `pwd`./build_output:/output -u $(id -u):$(id -g) thumbsupgallery/thumbsup thumbsup --config ./config.json
+    - docker run -t -v /home/appveyor/projects/tgyz1909-gallery/gallery:/input:ro -v `pwd`/home/appveyor/projects/tgyz1909-gallery/build_output:/output -u $(id -u):$(id -g) thumbsupgallery/thumbsup thumbsup --config /home/appveyor/projects/tgyz1909-gallery/config.json
 build_script:
     - 
     
