@@ -27,7 +27,7 @@ jobs:
           name: Install Docker
           command: |
             docker pull thumbsupgallery/thumbsup
-            docker run -t -v /root/project/:/work -u $(id -u):$(id -g) thumbsupgallery/thumbsup sh -c "cd work && thumbsup --config config.json"
+            docker run -t -v /root/project:/work -u $(id -u):$(id -g) thumbsupgallery/thumbsup sh -c "cd work && thumbsup --config config.json"
       - run: # git push
           name: push-github
           command: |
