@@ -1,11 +1,9 @@
 version: 2
 jobs:
   build:
-    docker: # executor type
-      - image: buildpack-deps:trusty
+    machine: true
     # The secondary container is an instance of the second listed image which is run in a common network where ports exposed on the primary container are available on localhost.
     steps:
-      - setup_remote_docker
       - add_ssh_keys:
           fingerprints: '62:35:25:b8:bb:39:ef:10:db:b7:5e:75:c4:c5:cd:f8'
       - checkout
