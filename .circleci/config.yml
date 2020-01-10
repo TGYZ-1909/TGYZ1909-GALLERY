@@ -3,6 +3,7 @@ jobs:
   build:
     docker: # executor type
       - image: thumbsupgallery/thumbsup
+      - image: ubuntu:latest
     # The secondary container is an instance of the second listed image which is run in a common network where ports exposed on the primary container are available on localhost.
     steps:
       - add_ssh_keys:
@@ -17,8 +18,7 @@ jobs:
       - run: # git push
           name: push-github
           command: |
-            apt-get install git
-            #sudo npm install -g --silent gh-pages@2.0.1
+            npm install -g --silent gh-pages@2.0.1
             git config --global user.email "24516641+TGYZ1909@users.noreply.github.com"
             git config --global user.name "TGYZ1909"
             #gh-pages --dotfiles --message "[skip ci] Updates" --dist ./build_output
