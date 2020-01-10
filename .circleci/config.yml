@@ -26,6 +26,7 @@ jobs:
       - run:
           name: Install Docker
           command: |
+            pwd
             ls
             docker pull thumbsupgallery/thumbsup
             docker run -t -v /root/project:/work -u $(id -u):$(id -g) thumbsupgallery/thumbsup sh -c "cd work && thumbsup --config config.json"
