@@ -1,11 +1,5 @@
-2020-01-10T10:34:50.858Z thumbsup:warn dcraw (https://www.cybercom.net/~dcoffin/dcraw/) is not installed. You will not be able to process RAW photos.
-2020-01-10T10:35:48.410Z thumbsup:error Error processing 视频/IMG_0507.mp4 -> media/small/视频/IMG_0507.jpg
-2020-01-10T10:35:48.410Z thumbsup:error Error: spawn ENOMEM
-2020-01-10T10:37:39.912Z thumbsup:error Error processing 视频/足球5.mp4 -> media/small/视频/足球5.jpg
-2020-01-10T10:37:39.912Z thumbsup:error Error: spawn ENOMEM
-2020-01-10T10:39:30.518Z thumbsup:error Error processing 视频/篮球第二场/IMG_0187.MOV -> media/small/视频/篮球第二场/IMG_0187.jpg
-2020-01-10T10:39:30.518Z thumbsup:error Error: spawn ENOMEM
-2020-01-10T10:40:00.506Z thumbsup:error Error processing 视频/足球第二场/IMG_0112.MOV -> media/large/视频/足球第二场/IMG_0112.jpg
-2020-01-10T10:40:00.506Z thumbsup:error Error: Command failed: 
-2020-01-10T10:41:31.648Z thumbsup:warn The following sources files were not processed:
-2020-01-10T10:41:31.648Z thumbsup:warn 视频/IMG_0507.mp4,视频/足球5.mp4,视频/篮球第二场/IMG_0187.MOV,视频/足球第二场/IMG_0112.MOV
+2020-01-10T10:37:16.643Z thumbsup:warn dcraw (https://www.cybercom.net/~dcoffin/dcraw/) is not installed. You will not be able to process RAW photos.
+2020-01-10T10:42:54.254Z thumbsup:error Error processing 图片/IMG_0536.JPG.jpeg -> media/large/图片/IMG_0536.JPG.jpeg
+2020-01-10T10:42:54.254Z thumbsup:error Error: spawn ENOMEM
+2020-01-10T10:44:31.320Z thumbsup:warn The following sources files were not processed:
+2020-01-10T10:44:31.320Z thumbsup:warn 图片/IMG_0536.JPG.jpeg
