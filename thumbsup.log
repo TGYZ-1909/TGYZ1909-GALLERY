@@ -1,5 +1,5 @@
-2020-01-10T10:37:16.643Z thumbsup:warn dcraw (https://www.cybercom.net/~dcoffin/dcraw/) is not installed. You will not be able to process RAW photos.
-2020-01-10T10:42:54.254Z thumbsup:error Error processing 图片/IMG_0536.JPG.jpeg -> media/large/图片/IMG_0536.JPG.jpeg
-2020-01-10T10:42:54.254Z thumbsup:error Error: spawn ENOMEM
-2020-01-10T10:44:31.320Z thumbsup:warn The following sources files were not processed:
-2020-01-10T10:44:31.320Z thumbsup:warn 图片/IMG_0536.JPG.jpeg
+2020-01-11T00:29:46.333Z thumbsup:warn dcraw (https://www.cybercom.net/~dcoffin/dcraw/) is not installed. You will not be able to process RAW photos.
+2020-01-11T00:30:37.099Z thumbsup:error Error processing 视频/IMG_0583.mp4 -> media/small/视频/IMG_0583.jpg
+2020-01-11T00:30:37.099Z thumbsup:error Error: spawn ENOMEM
+2020-01-11T00:38:09.590Z thumbsup:warn The following sources files were not processed:
+2020-01-11T00:38:09.590Z thumbsup:warn 视频/IMG_0583.mp4
